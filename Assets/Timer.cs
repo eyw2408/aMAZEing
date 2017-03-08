@@ -13,13 +13,23 @@ public class Timer : MonoBehaviour {
     public static float SONG_BPM = 125.0f; // note: song is close to 125 beats per minute
     public static float SEC_PER_MIN = 60.0f;
     public static float DELAY = 1.5f; // amount of time before the song starts
-    public static float TIME_LIMIT = 20.0f;
+    public static int INTRO_BEAT_LIMIT = 48;
+    public static int MAIN_BEAT_LIMIT = 248;
+    public static int END_LIMIT = 480;
+
 
     private float startTime;
+    private bool intro = true;
+    private bool main = false;
+    private bool finished = false;
+
+    public GameObject[] flashingWalls;
 
 	// Use this for initialization
 	void Start () {
         startTime = Time.time;
+        flashingWalls = GameObject.FindGameObjectsWithTag("Flashing Walls");
+        
 	}
 	
 	// Update is called once per frame
@@ -54,12 +64,32 @@ public class Timer : MonoBehaviour {
         }
 
         // user ran out of time - deal with that here
-        if (t > TIME_LIMIT)
-            finish();
-        
-	}
+        if (beats > INTRO_BEAT_LIMIT) {
+            start_main();
 
-    public void finish() {
+            // Flashing Walls
+            if (circle == 0) {
+                foreach (GameObject wall in flashingWalls)
+                    wall.SetActive(false);
+            } else {
+                foreach (GameObject wall in flashingWalls)
+                    wall.SetActive(true);
+            }
+
+        }
+
+        if (beats > MAIN_BEAT_LIMIT) {
+            start_vocal();
+        }
+
+    }
+
+    public void start_main() {
+        timerText.color = Color.yellow;
+        intro = false;
+    }
+    public void start_vocal() { 
         timerText.color = Color.red;
+        main = false;
     }
 }
