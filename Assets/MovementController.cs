@@ -15,8 +15,9 @@ public class MovementController : MonoBehaviour {
 	void Update () {
 		float vert = Input.GetAxis("Vertical");
 		float horizont = Input.GetAxis("Horizontal");
-		Vector2 vc2 = new Vector2 (horizont,vert);
-		vc2.Normalize ();
+                int SCALE = 4;
+		Vector2 vc2 = new Vector2 (horizont*SCALE,vert*SCALE);
+		// vc2.Normalize ();
 		rb.AddForce (vc2);
 	}
 }

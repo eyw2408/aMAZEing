@@ -9,6 +9,7 @@ public class Timer : MonoBehaviour {
     public Text timerText;
     public Text beatsText;
     public Text circlesText;
+    public Text ggText;
 
     public static float SONG_BPM = 125.0f; // note: song is close to 125 beats per minute
     public static float SEC_PER_MIN = 60.0f;
@@ -16,7 +17,6 @@ public class Timer : MonoBehaviour {
     public static int INTRO_BEAT_LIMIT = 48;
     public static int MAIN_BEAT_LIMIT = 248;
     public static int END_LIMIT = 480;
-
 
     private float startTime;
     private bool intro = true;
@@ -68,7 +68,7 @@ public class Timer : MonoBehaviour {
             start_main();
 
             // Flashing Walls
-            if (circle == 0) {
+            if (circle != 3) {
                 foreach (GameObject wall in flashingWalls)
                     wall.SetActive(false);
             } else {
