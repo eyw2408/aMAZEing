@@ -46,11 +46,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraController.cs" />
-     <Compile Include="Assets\CircleOfView.cs" />
-     <Compile Include="Assets\Finish.cs" />
-     <Compile Include="Assets\MovementController.cs" />
-     <Compile Include="Assets\Timer.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\CircleOfView.cs" />
+     <Compile Include="Assets\Scripts\Finish.cs" />
+     <Compile Include="Assets\Scripts\MovementController.cs" />
+     <Compile Include="Assets\Scripts\Timer.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
