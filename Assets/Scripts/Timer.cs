@@ -27,9 +27,8 @@ public class Timer : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        startTime = Time.time;
-        flashingWalls = GameObject.FindGameObjectsWithTag("Flashing Walls");
-        
+            startTime = Time.time;
+            flashingWalls = GameObject.FindGameObjectsWithTag("Flashing Walls");
 	}
 	
 	// Update is called once per frame
@@ -46,7 +45,7 @@ public class Timer : MonoBehaviour {
         beatsText.text = beats.ToString();
 
         // circles code (1, 2, 3, 4 metronome)
-        int circle = (beats - 1) % 4;
+        int circle = (beats) % 4;
         switch(circle) {
             case 0:
                 circlesText.text = "o _ _ _";
