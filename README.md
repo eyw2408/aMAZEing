@@ -16,6 +16,7 @@ Feel free to reach out to us if you have any comments, advice, or better memes. 
 
 # Inspiration
 
-Shooting Star Meme –  https://www.youtube.com/watch?v=cbKmm_xAEro
-UCBMFET – https://www.facebook.com/groups/1717731545171536/?fref=nf
-Song: Bag Raiders’s Shooting Star – https://www.youtube.com/watch?v=3mUfOs-CTCw
+* Shooting Star Meme - https://www.youtube.com/watch?v=cbKmm_xAEro
+* UCBMFET - https://www.facebook.com/groups/1717731545171536/?fref=nf
+* Bag Raiders’s Shooting Star - https://www.youtube.com/watch?v=3mUfOs-CTCw
+* ... and of course the Berkeley Game Design Decal - http://decal.berkeley.edu/courses/124
