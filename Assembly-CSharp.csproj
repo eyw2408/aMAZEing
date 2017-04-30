@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DistanceToFinish.cs" />
+     <Compile Include="Assets\FlashBoulder.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\CircleOfView.cs" />
      <Compile Include="Assets\Scripts\DisplayBeats.cs" />

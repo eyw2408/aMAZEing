@@ -44,7 +44,7 @@ public class TimerNew : MonoBehaviour {
     public int getBeatMod() {
         float t = Time.time - startTime;
         beat = (int)((t * SONG_BPM / SEC_PER_MIN) - DELAY);
-        Debug.Log(beat % 4);
+        // Debug.Log(beat % 4);
         return beat % 4;
     }
 }

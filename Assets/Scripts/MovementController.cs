@@ -13,7 +13,6 @@ public class MovementController : MonoBehaviour {
 		tr = GetComponent<Transform> ();
 		rb = GetComponent<Rigidbody2D> ();
 		anim = this.gameObject.GetComponent<Animator>();
-
 	}
 	
 	// Update is called once per frame
