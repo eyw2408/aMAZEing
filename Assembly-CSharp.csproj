@@ -48,11 +48,14 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\CircleOfView.cs" />
+     <Compile Include="Assets\Scripts\DisplayBeats.cs" />
+     <Compile Include="Assets\Scripts\DisplayMet.cs" />
+     <Compile Include="Assets\Scripts\DisplayTimer.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\Finish.cs" />
      <Compile Include="Assets\Scripts\MovementController.cs" />
-     <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\TimerNew.cs" />
+     <Compile Include="Assets\Scripts\oldTimer.cs" />
      <Compile Include="Assets\ViewOverlay.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

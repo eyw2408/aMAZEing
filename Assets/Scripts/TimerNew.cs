@@ -26,6 +26,14 @@ public class TimerNew : MonoBehaviour {
 
     }
 
+    public string getTimeStr()
+    {
+        float t = Time.time - startTime;
+        string minutes = ((int)(t / SEC_PER_MIN)).ToString();
+        string seconds = (t % SEC_PER_MIN).ToString("f2");
+        return minutes + ":" + seconds;
+    }
+
     public int getBeat() {
         float t = Time.time - startTime;
         beat = (int)((t * SONG_BPM / SEC_PER_MIN) - DELAY);
