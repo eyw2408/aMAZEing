@@ -1,9 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MovementController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\DistanceToFinish.cs">
     <Files>
-      <File FileName="Assets\Scripts\MovementController.cs" Line="25" Column="67" />
+      <File FileName="Assets\Scripts\MovementController.cs" Line="32" Column="15" />
+      <File FileName="Assets\Scripts\TimerNew.cs" Line="43" Column="5" />
       <File FileName="..\game-dev\Project1-2-master\Assets\Scripts\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DisplayTimer.cs" Line="20" Column="39" />
+      <File FileName="Assets\Scripts\DisplayMet.cs" Line="23" Column="51" />
+      <File FileName="Assets\Scripts\CircleOfView.cs" Line="13" Column="20" />
+      <File FileName="Assets\DistanceToFinish.cs" Line="29" Column="1" />
+      <File FileName="Assets\Scripts\Finish.cs" Line="15" Column="15" />
+      <File FileName="Assets\Scripts\oldTimer.cs" Line="23" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
