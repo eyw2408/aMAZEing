@@ -17,8 +17,11 @@ public class TimerNew : MonoBehaviour {
     private int circle = -1;
     private int beat = -1;
 
+
+
     void Start () {
         startTime = Time.time;
+
     }
 
 
@@ -37,6 +40,7 @@ public class TimerNew : MonoBehaviour {
     public int getBeat() {
         float t = Time.time - startTime;
         beat = (int)((t * SONG_BPM / SEC_PER_MIN) - DELAY);
+		//Debug.Log (beat);
         return beat;
     }
 

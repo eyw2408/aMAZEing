@@ -29,7 +29,7 @@ public class MovementController : MonoBehaviour {
             
             float degrees = (rb.rotation % 360) + 90;
             float radians = degrees / 180 * Mathf.PI;
-            Debug.Log("degrees " + degrees);
+            //Debug.Log("degrees " + degrees);
 
             Vector2 vc2 = new Vector2(Mathf.Cos(radians) * SCALE, Mathf.Sin(radians) * SCALE); 
 

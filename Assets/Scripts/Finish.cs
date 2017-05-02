@@ -12,7 +12,7 @@ public class Finish : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		
-            Debug.Log("printing :)");
+            //Debug.Log("printing :)");
 	}
 	
 	// Update is called once per frame

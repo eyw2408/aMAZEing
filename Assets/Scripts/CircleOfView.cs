@@ -227,8 +227,8 @@ public class CircleOfView : MonoBehaviour {
 				transform.localScale -= new Vector3(0.1F, 0.1F, 0);
 			}
 		}
-		Debug.Log("Time----> : " + Time.time);
-		Debug.Log(">>>>>>>: " + timeCounter);
+		//Debug.Log("Time----> : " + Time.time);
+		//Debug.Log(">>>>>>>: " + timeCounter);
 		
 	}
 }
